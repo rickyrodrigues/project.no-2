@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+    background-color:#9b95b981;
+    /* background: url("survey-form/images/back.png"); */
+   
+    
+  }
+  *,
+  *:before,*:after {
+    box-sizing: auto;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.288),
+        rgba(136, 136, 206, 0.7)
+      ),
+      
+      url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+#main {
+    background-color: #22116b44;
+   /* background-image:  url('/james-baldwin-b9vkGONY4eI-unsplash.jpg');  */
+color: #3D3A4B; 
+}
+
+#survey-form {
+  display: block;
+  background-color: #4c4776b5;
+  max-width: 45%;
+  text-align: center;
+  padding:  25px 60px 25px 60px;
+  border-radius: 15%;
+  margin: auto;
+}
+
+#title{
+    background-color:#07070c48 ;
+    color: rgba(252, 252, 252, 0.795);
+    text-align: center;
+}
+.content-wrap {
+background-color: #e3dfff59  ;
+color: rgb(22, 34, 34);
+text-align: center;  
+padding-bottom: 5px;
+}
+
+#input-tab {text-align: center;margin: auto; padding-top: 25px;
+    /* background-color:#9b95b981;} */}
+#tab2 {
+    box-sizing: 25px;
+}
+
+#email {
+    padding: auto ;
+    }
+#number {
+    padding: auto ;
+
+}    
+#opinion {
+    box-sizing: 50px;
+}
+p { 
+    font-size: 25px;
+}
+#idea-label{
+    padding: auto ;
+    margin: auto;
+}
+footer {
+    text-align: center;
+}
+#name-label {
+    padding: auto ;
+    box-shadow: #3D3A4B;
+}
